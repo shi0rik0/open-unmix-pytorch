@@ -183,10 +183,10 @@ def umx_spec(targets=None, device="cpu", pretrained=True):
 
     # set urls for weights
     target_urls = {
-        "bass": "https://zenodo.org/api/files/d6105b95-8c52-430c-84ce-bd14b803faaf/bass-646024d3.pth",
-        "drums": "https://zenodo.org/api/files/d6105b95-8c52-430c-84ce-bd14b803faaf/drums-5a48008b.pth",
-        "other": "https://zenodo.org/api/files/d6105b95-8c52-430c-84ce-bd14b803faaf/other-f8e132cc.pth",
-        "vocals": "https://zenodo.org/api/files/d6105b95-8c52-430c-84ce-bd14b803faaf/vocals-c8df74a5.pth",
+        "bass": "https://zenodo.org/records/3370486/files/bass-646024d3.pth",
+        "drums": "https://zenodo.org/records/3370486/files/drums-5a48008b.pth",
+        "other": "https://zenodo.org/records/3370486/files/other-f8e132cc.pth",
+        "vocals": "https://zenodo.org/records/3370486/files/vocals-c8df74a5.pth",
     }
 
     if targets is None:
